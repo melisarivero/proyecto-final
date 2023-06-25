@@ -35,8 +35,8 @@ ul {
     flex-direction: row;
     justify-content: space-between;
 }
-
-/* body */
+/*final de inicio*/
+/* body de index*/
 .banner{
     margin-top: 30px;
     background-image: url(img/imagen.pmg.jpg);
@@ -52,8 +52,8 @@ ul {
     height: 380px;
     background-color: rgba(128, 128, 128, .4);
     margin-left: 90px;
-
 }
+
 .imagen{
     width: 250px;
     height: 250px;
@@ -91,6 +91,7 @@ ul {
     padding: 10px;
     text-decoration: none;
 }
+/*final de body de index*/
 /*footer*/
 footer{
     background-color: rgba(128, 128, 128, .5);
@@ -112,3 +113,74 @@ footer{
 .logofooter img{
     height: 50px;
 }
+/*final de footer y index*/
+
+
+/* pagina contacto */
+.contacto{
+    width: 900px;
+    height: 700px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, .4);
+}
+.contacredes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/*titulo*/
+.contactitulo h1{
+    padding: 20px;
+    color: white;
+    width: 390px;
+    margin-left: 270px;
+    background-color:rgba(184, 68, 199, .4);
+}
+/*inicio de icono contanto*/
+.contacicono{
+    height: 60px;
+    width: 740px;
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(184, 68, 199, .4);
+}
+.contacicono i{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.icontext{
+    display: flex;
+}
+.icontext p{
+    padding: 9px;
+    color: white;
+    font-size: 20px;
+}
+/* formulario */
+.contacform{
+    height: 450px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 30px;
+    background-color: rgb(184, 68, 199, .4);
+}
+.contacform label{
+    color: white;
+}
+textarea, input{
+    background-color: rgb(184, 68, 199);
+}
+button {
+    background-color: #b844c7;
+    width: 100px;
+    height: 25px;
+    color:white;
+    margin-left: 65px;
+    margin-top:10px;
+
+}
+/*final de pagina de contacto*/
