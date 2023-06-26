@@ -36,6 +36,8 @@ ul {
     justify-content: space-between;
 }
 /*final de inicio*/
+
+
 /* body de index*/
 .banner{
     margin-top: 30px;
@@ -92,6 +94,8 @@ ul {
     text-decoration: none;
 }
 /*final de body de index*/
+
+
 /*footer*/
 footer{
     background-color: rgba(128, 128, 128, .5);
@@ -138,7 +142,7 @@ footer{
     margin-left: 270px;
     background-color:rgba(184, 68, 199, .4);
 }
-/*inicio de icono contanto*/
+/*icono contanto*/
 .contacicono{
     height: 60px;
     width: 740px;
@@ -184,3 +188,59 @@ button {
 
 }
 /*final de pagina de contacto*/
+
+
+/*inicio de pagina de staff*/
+#nosotras{
+    width: 900px;
+    height: 600px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, .4);
+}
+.info{
+    width: 600px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.infonosotras h1{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    background-color:rgba(184, 68, 199, .4);
+    padding: 10px 5px;
+}
+.infonosotras{
+    padding-top: 7px;
+    font-size: 17px;
+}
+/*fotos y profesion*/
+.perfiles{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.perfiles img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.textperfil{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: rgba(184, 68, 199, .4);
+    padding-top: 6px;
+}
+.perf h3{
+    margin-top: 8px;
+}
+/*final de pagina de staff*/
