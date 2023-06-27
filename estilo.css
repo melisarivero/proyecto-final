@@ -289,3 +289,46 @@ button {
 
 }
 /*fin de login*/
+
+/*Inicio de registrarse*/
+.registro{
+    width: 620px;
+    height: 520px;
+    background-color: rgba(128, 128, 128, .4); 
+    margin-left: 365px;
+    margin-top: 20px;
+}
+.registre{
+    background-color: rgba(184, 68, 199, .4);
+}
+h1{
+    color:white;
+    background-color:  rgba(184, 68, 199, .4);
+    width: 170px;
+    height: 80px;
+    margin-left: 225px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 60px;
+
+}
+.registro form{
+    background-color:  rgba(184, 68, 199, .4);
+    width: 230px;
+    height: 370px;
+    margin-left: 195px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.registro label{
+    color: white;
+}
+.registro button{
+    width: 100px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 25px;
+
+}
