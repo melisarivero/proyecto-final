@@ -13,7 +13,7 @@ header{
     height: 200px;
 }
 .logo{
-    background-color: #b844c7;
+    background-color: rgb(184, 68, 199);
     width: 100%;
     height: 150px;
     padding-left: 350px;
@@ -244,3 +244,48 @@ button {
     margin-top: 8px;
 }
 /*final de pagina de staff*/
+
+/*Inicio de Login*/
+.ingresar{
+    background-color: rgba(128, 128, 128, .4);
+    width: 650px;
+    height: 310px;
+    margin-left: 350px;
+}
+.ingresesion h1{
+    background-color: rgb(184, 68, 199, .4);
+    color:white;
+    width: 250px;
+    margin-top: 55px;
+    margin-left:200px;
+    text-align: center;
+}
+.ingresar form{
+    width: 320px;
+    height: 170px; 
+    margin-top: 30px;
+    margin-left: 165px;
+    padding: 30px;
+    background-color: rgb(184, 68, 199, .4);
+    text-align: center;
+}
+.ingresar label{
+    color: white;
+}
+
+.ingresarinput{
+    background-color: rgb(184, 68, 199);
+    margin-right:5px;
+    display: flex;
+    
+}
+.ingresarbutton{
+    background-color: #b844c7;
+    width: 100px;
+    height: 25px;
+    color:white;
+    margin-left: 90px;
+    margin-top:80px;
+
+}
+/*fin de login*/

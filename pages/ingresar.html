@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/30716c99bc.js" crossorigin="anonymous"></script>
     <meta name="author" content="Melisa Ludmila Rivero Moreno, Samira Luciana Paez">
-    <title>STIGMA</title>
+    <title>STIGMA-login</title>
     <link rel="stylesheet" href="/estilo.css">
 </head>
 
@@ -17,43 +17,35 @@
         </div>
         <nav>
             <ul>
-                <a href="/index.html"><i class="fa-solid fa-face-smile"></i></a>
-                <a href="">Productos</a>
-                <a href="/pages/contacto.html">Contacto</a>
+                <a href="../index.html"><i class="fa-solid fa-face-smile"></i></a>
+                <a href="producto.html">Productos</a>
+                <a href="contacto.html">Contacto</a>
                 <a href="">Opiniones</a>
-                <a href="">Ingresar</a>
-                <a href="">Registrarte</a>
-                <a href="/pages/staff.html">Staff</a>
-                <a href="#"><i class="fa-solid fa-cart-shopping" style="color: rgb(252, 252, 252);"></i></a>
+                <a href="ingresar.html">Login</a>
+                <a href="registrarte.html">Registrarte</a>
+                <a href="staff.html">Staff</a>
+                <a href="carrito.html"><i class="fa-solid fa-cart-shopping" style="color: rgb(252, 252, 252);"></i></a>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="nosotras">
-            <div class="info">
-                <div class="infonosotras">
-                    <h1 class="infotext">¡Sobre nosotras!</h1>
-                </div>
-                <div class="infonosotras">
-                    <h3>¡Hola!<br>Somos una pequeña marca de ropa oversize. Tenemos una gran variedad de colores, talles y estilos que te gustaran. <br> Vendemos buzos, remeras y jeans para ambos generos.
-                    </h3>
-                </div>
+        <div class="ingresar">
+            <div class="ingresesion">
+                <h1>Ingresar sesión</h1>
             </div>
-            <div class="perfiles">
-                <div class="mr perf">
-                    <img src="/img/perfil1.jpg">
-                    <h3 class="textperfil">Melisa Rivero</h3>
-                    <h4 class="textperfil">Diseñadora Web</h4>
-                </div>
-                <div class="sp perf">
-                    <img src="/img/perfil2.jpg">
-                    <h3 class="textperfil">Samira Páez</h3>
-                    <h4 class="textperfil">Desarrolladora Web</h4>
-                </div>
-
-            </div>
+            <form action="" method="get">
+                <label>Usuario:</label>
+                <input type="text" name="usurio" id="usuario" size="21">
+                <br>
+                <br>
+                <label>Clave:</label>
+                <input type="text" name="clave" id="clave" size="21">
+                <br>
+                <br>
+                <button type="submit"><a href="/pages/registrarte.html"></a>Enviar</button>
+            </form>
+        </div>
     </main>
-    
     <footer>
         <div class="redes">
             <i class="fa-brands fa-square-instagram" style="color: rgb(184, 68, 199);"></i>
@@ -69,6 +61,7 @@
                 width="180" height="50" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
+            <p class="copy">&copy;Rivero & Páez</p>
         </div>
     </footer>
 </body>
