@@ -165,7 +165,7 @@ footer{
 }
 /* formulario */
 .contacform{
-    height: 450px;
+    height: 460px;
     width: 300px;
     margin-top: 15px;
     margin-left: 30px;
@@ -178,13 +178,12 @@ footer{
 textarea, input{
     background-color: rgb(184, 68, 199);
 }
-button {
+.btncontac button {
     background-color: #b844c7;
     width: 100px;
     height: 25px;
     color:white;
     margin-left: 65px;
-    margin-top:10px;
 
 }
 /*final de pagina de contacto*/
@@ -461,3 +460,59 @@ h1{
     margin-left:20px;
 }
 /*final de la pagina de producto*/
+
+/*inicio de opiniones*/
+.opiniones {
+    width: 900px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: rgba(128, 128, 128, .4);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.optitulo {
+    color: white;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.optitulo h1 {
+    width: 500px;
+    height: 100px;
+    background-color: rgba(184, 68, 199, .4);
+}
+.optext{
+    color:white;
+    padding-bottom: 50px;
+}
+.opinform{
+    height: 450px;
+    width: 500px;
+    background-color: rgb(184, 68, 199, .4);
+    margin: auto;
+    padding-top: 50px;
+}
+
+.opform label {
+    text-align: center;
+    font-size: 19px;
+}
+
+.comentex textarea {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btnopi button {
+    background-color: #b844c7;
+    width: 100px;
+    height: 25px;
+    color:rgb(61, 12, 67);
+    align-items: center;
+    border: solid #b844c7;
+    font-size: 15px;
+    margin-right: 60px;
+}
